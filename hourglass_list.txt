@@ -1,0 +1,26 @@
+First loop is :
+for(int i=0;i<6;i++)
+        {
+            for(int j=0;j<6;j++)
+            {
+                .....
+            }
+        }
+It is use for inputting user's elements in the matrix.
+Its time complexity is : O(n^2)
+
+Secound loop is :
+for(int i=0;i<4;i++)
+        {
+            for(int j=0;j<4;j++)
+            {
+                .....
+            }
+        }
+It is use to find the sum of hour glass thought it runs from index 0 to 3 it has two loops so its time complexity is same as the first loop.
+Total time complexity is : 
+->O(n^2)+O(n^2)
+->2O(n^2)
+->O(n^2)
+
+The time complexity is in polynomial fuction "n^2" so it will increase as more the size of i and j increases.
